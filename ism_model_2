@@ -1,0 +1,79 @@
+import numpy as np
+import pandas as pd
+
+df = pd.read_csv('data2.csv', delim_whitespace=True, index_col=0)
+print(df)
+df = df.drop(columns = ['10'],axis='columns')
+df = df.drop(axis='index', index=['10.Unmet_requirements'])
+
+IPM = np.empty(df.shape,dtype=int)
+print(df)
+
+i = 0
+
+for index, row in df.iterrows():
+    size = len(df.columns)
+    while size > 0:
+
+        if i == size-1:
+            IPM[size - 1][i] = 1
+        elif pd.isnull(row[str(size)]):
+            break
+        else:
+            if row[str(size)].lower() == 'v':
+                IPM[i][size-1] = 1
+                IPM[size-1][i] = 0
+            elif row[str(size)].lower() == 'a':
+                IPM[i][size-1] = 0
+                IPM[size-1][i] = 1
+            elif row[str(size)].lower() == 'x':
+                IPM[i][size-1] = 1
+                IPM[size-1][i] = 1
+            elif row[str(size)].lower() == 'o':
+                    IPM[i][size - 1] = 0
+                    IPM[size - 1][i] = 0
+
+        size -= 1
+    i+=1
+
+
+size = len(df.columns)
+Levels = {}
+level = 1
+count = 0
+
+while count < size:
+    sub_list = []
+    Reachability_set = []
+    for row in IPM:
+        sub_list = []
+        for index, val in enumerate(row):
+            if val == 1:
+                sub_list.append(index+1)
+        Reachability_set.append(set(sub_list))
+
+    Antecedent_set = []
+    for column in IPM.T:
+        sub_list = []
+        for index, val in enumerate(column):
+            if val == 1:
+                sub_list.append(index+1)
+        Antecedent_set.append(set(sub_list))
+
+    Intersection_set = []
+
+    for R, A in zip(Reachability_set, Antecedent_set):
+        Intersection_set.append(R.intersection(A))
+
+
+
+    print("Reachablility set")
+    print(Reachability_set)
+    print("Antecedent_set set")
+    print(Antecedent_set)
+
+    print("Intersection_set set")
+    print(Intersection_set)
+    count = count + len(sub_list)
+
+

@@ -1,0 +1,11 @@
+parameters  10 9 8 7 6 5 4 3 2 1
+1.Poor  V V O V O O V V V
+2.Ambiguity V V V V O V V V
+3.translation V O V V V V V
+4.Poor_planning V O V A O X
+5.Improper V O V V V
+6.Lack V O V V
+7.Poor_consideration V O X
+8.Lack_adequate V O
+9.training_end  V
+10.Unmet_requirements
