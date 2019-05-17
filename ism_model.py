@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('data2.csv', delim_whitespace=True, index_col=0)
+df = pd.read_csv('rene_2017.csv', delim_whitespace=True, index_col=0)
 print(df)
 
 IPM = np.empty(df.shape, dtype=int)
