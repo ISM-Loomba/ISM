@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34074776-9cde-4773-b052-62d6c4acc83f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dubey2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html_nocode.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ism_chapter.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rene_2016.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/ISM model-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/ISM model-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISM model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ISM model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISM model.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ISM model.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISM.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/rene_2017.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hidecode.tplx" beforeDir="false" afterPath="$PROJECT_DIR$/hidecode.tplx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ism_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/ism_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ism_model_2" beforeDir="false" afterPath="$PROJECT_DIR$/ism_model_2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple.dot" beforeDir="false" />
-    </list>
+    <list default="true" id="34074776-9cde-4773-b052-62d6c4acc83f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,12 +268,12 @@
       <workItem from="1558056843148" duration="88000" />
       <workItem from="1558056968888" duration="299000" />
       <workItem from="1558057720445" duration="561000" />
-      <workItem from="1558060522521" duration="2938000" />
+      <workItem from="1558060522521" duration="3106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77337000" />
+    <option name="totallyTimeSpent" value="77505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,10 +301,10 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005325" side_tool="true" weight="0.3019802" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5920792" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.59183675" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.33979592" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" id="Jupyter" order="14" visible="true" weight="0.26530612" />
+      <window_info anchor="bottom" id="Jupyter" order="14" weight="0.26530612" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
