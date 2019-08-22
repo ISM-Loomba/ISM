@@ -3,4 +3,5 @@
 *.gv
 .idea
 .ipynb_checkpoints
+*.png
 .DS_Store
